@@ -4,8 +4,13 @@ Find potentially malicious files by checking for RTLO (Right to Left Override) c
 New types of phishing attacks are always onthe rise and a new form of malicious software will mask the true file extension by using RTLO characters. These will ask the OS to flip the order of the filename when it is being displayed
 
 
-This is a simple Python script that helps detect malicious files that hide their true filenames using Unicode Right-to-Left Override (RTLO) characters. It will do htis by recursively searching the specified directory and compare the filenames with those on the backlist. a file match with the blacklist does not guarantee that it is malicious. It is just an indicator that the file should be further investigated.
+This is a simple Python script that helps detect malicious files that hide their true filenames using Unicode Right-to-Left Override (RTLO) characters. It will do this by recursively searching the specified directory and compare the filenames with those on the backlist. a file match with the blacklist does not guarantee that it is malicious. It is just an indicator that the file should be further investigated.
 
+
+![ThioJoe's Youtube Video Screenshot](https://user-images.githubusercontent.com/19929553/223332862-40563119-df6c-4430-b413-b43fef1c88ba.png)
+Credit for Screenshot: [@ThioJoe](https://github.com/ThioJoe)
+
+You can find more information here: [Youtube Video](https://www.youtube.com/watch?v=nIcRK4V_Zvc)
 
 ## Usage
 
